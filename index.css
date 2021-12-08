@@ -1,0 +1,305 @@
+.body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*@media screen and (min-width:360px) and (max-width:640px) {
+    .body{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+}*/
+.task{
+    font-size: 40px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+@media screen and (min-width:360px) and (max-width:640px) {
+    .task{
+        font-size: 45px;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+}
+.tasks{
+    font-weight: bolder;
+}
+@media screen and (min-width:360px) and (max-width:640px) {
+    .tasks{
+        font-weight: bolder;
+    }
+}
+.lists{
+    font-weight: 100;
+    color: gray;
+}
+@media screen and (min-width:360px) and (max-width:640px) {
+    .lists{
+        font-weight: 100;
+        color: gray;
+    }
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50px;
+    position: relative;
+    left: 800px;
+    bottom: 40px;
+}
+@media screen and (min-width:360px) and (max-width:640px){
+    .circle{
+        position: relative;
+        left: 270px;
+        bottom: 50px;
+    }
+}
+.ver{
+    width: 4px;
+    height: 25px;
+    background-color: white;
+    position: relative;
+    left: 18px;
+    top: 4px;
+}
+.hor{
+    width: 25px;
+    height: 4px;
+    background-color: white;
+    position: relative;
+    left: 8px;
+    top: 18px;
+}
+.add{
+    font-size: 30px;
+    color: gray;
+    position: relative;
+    left: 880px;
+    bottom: 80px;
+}
+@media screen and (min-width:360px) and (max-width:640px){
+    .add{
+        display: none;
+    }
+}
+.box{
+    border: 1px solid red;
+    width: 160px;
+    height: 280px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+    position: relative;
+    left: 200px;
+    box-shadow: 10px 10px 20px gray;
+}
+@media screen and (min-width:360px) and (max-width:640px){
+    .box{
+        position: relative;
+        left: 5px;
+        width: 250px;
+        height: 50px;
+        display: block;
+        text-align: left;
+        padding: 10px;
+        border: 1px solid lightcoral;
+        margin-top: 25px;
+    }
+}
+.hr{
+    margin-left: 30px;
+}
+@media screen and (min-width:360px) and (max-width:640px){
+    .hr{
+        display: none;
+    }
+}
+.trip{
+    color: red;
+    text-decoration: none;
+}
+@media screen and (min-width:360px) and (max-width:640px){
+    .trip{
+        color: gray;
+    }
+}
+.com{
+    color: red;
+    text-decoration: line-through;
+}
+@media screen and (min-width:360px) and (max-width:640px){
+    .com{
+        display: none;
+    }
+    .agreee{
+        display: none;
+    }
+}
+.box11{
+    border: 1px solid red;
+    width: 160px;
+    height: 280px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    text-align: center;
+    position: relative;
+    left: 200px;
+    box-shadow: 10px 10px 20px gray;
+}
+@media screen and (min-width:360px) and (max-width:640px){
+    .box11{
+        width: 280px;
+        height: 480px;
+        position: relative;
+        left: 10px;
+        bottom: 50px;
+    }
+}
+.head2{
+    font-size: 50px;
+    font-weight: bold;
+}
+@media screen and (min-width:360px) and (max-width:640px){
+    .head2{
+        font-size: 40px;
+        margin-left: 80px;
+    }
+}
+.head1{
+    text-decoration: gray line-through;
+    color: white;
+    padding: 40px;
+}
+@media screen and (min-width:360px) and (max-width:640px){
+    .head1{
+        display: none;
+    }
+}
+.trip1{
+    color: red;
+    font-size: 20px;
+}
+.hr1{
+    margin-left: 30px;
+}
+.com1{
+    color: red;
+    text-decoration: line-through;
+}
+.circle1{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50px;
+    position: relative;
+    left: 110px;
+    top: 40px;
+}
+@media screen and (min-width:360px) and (max-width:640px){
+    .circle1{
+        position: relative;
+        left: 200px;
+        top: 180px;
+    }
+}
+.ver1{
+    width: 4px;
+    height: 25px;
+    background-color: white;
+    position: relative;
+    left: 18px;
+    top: 4px;
+}
+.hor1{
+    width: 25px;
+    height: 4px;
+    background-color: white;
+    position: relative;
+    left: 8px;
+    top: 18px;
+}
+.circle2{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50px;
+    font-size: 40px;
+    position: relative;
+    left: 220px;
+}
+@media screen and (min-width:360px) and (max-width:640px){
+    .circle2{
+        position: relative;
+        left: 10px;
+        bottom: 80px;
+    }
+}
+.arrow{
+    color: white;
+    position: relative;
+    bottom: 11px;
+}
+.back{
+    font-size: 40px;
+    color: gray;
+    position: relative;
+    left: 280px;
+    bottom: 50px;
+}
+@media screen and (min-width:360px) and (max-width:640px){
+    .back{
+        display: none;
+    }
+}
+.cb{
+    text-decoration: none;
+}
+.bodyl{
+    filter: blur(15px);
+}
+.new{
+    border: 1px solid red;
+    width: 400px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    color: red;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    left: 400px;
+    bottom: 250px;
+    box-shadow: 5px 5px 15px gray;
+}
+@media screen and (min-width:360px) and (max-width:640px){
+    .new{
+        width: 270px;
+        position: relative;
+        left: 20px;
+        bottom: 400px;
+    }
+}
+.add1{
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    transform: scale(1.5);
+    margin-top: 10px;
+}
+.add2{
+    border: thin solid red;
+    transform: scale(1.5);
+    box-shadow: 5px 5px 5px lightgrey;
+}
+.center{
+    margin-left: 200px;
+}
+@media screen and (min-width:360px) and (max-width:640px){
+    .center{
+        margin-left: 0px;
+    }
+}
+.td{
+    filter: blur(15px);
+}
